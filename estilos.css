@@ -1,0 +1,75 @@
+/* Fuentes */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #00416A; 
+  background: -webkit-linear-gradient(to top, #E4E5E6, #00416A); 
+  background: linear-gradient(to top, #E4E5E6, #00416A);
+  color: #343a40;
+  
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+  color: #007bff;
+}
+
+/* Navegación */
+.navbar-brand {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Secciones */
+section {
+  border-radius: 10px;
+  transition: transform 0.3s;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+/* Pie de página */
+footer {
+  background-color: #343a40;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffca2c;
+}
+
+/* Tabla */
+.table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table tfoot {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
